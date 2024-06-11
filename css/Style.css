@@ -1,0 +1,265 @@
+#body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1800px;
+}
+
+#header {
+    background-color: #bf2626;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+    height: 30px;
+    position: fixed;
+    width: 81.5%;
+    z-index: 1;
+}
+
+#container {
+    width: 1250px;
+    margin: 0 auto;
+    
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-logo div {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    width: 74%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: -25px;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+.nav a:hover {
+    background-color: #ccc;
+    color: #bf2626;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.hienmenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.hienmenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hienmenu a:hover {
+    border-left: 4px solid #bf2626;
+}
+
+.dropdown:hover .hienmenu {
+    display: block;
+}
+
+.chuchay {
+    height: 45px;
+    background-color: #ccc;
+
+}
+
+.chuchay marquee {
+    font-size: 20px;
+    font-weight: bold;
+    color: #A80002;
+    z-index: 1;
+    padding-top: 3px;
+
+}
+
+.chuchay #date {
+    display: block;
+    background-color: #ccc;
+    padding: 0 20px;
+    color: #A80002;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    z-index: 2;
+}
+
+#trai {
+    height: 500px;
+    background-color: #fff;
+    float: left;
+    width: 69%;
+    margin-top: 0px;
+}
+
+#phai {
+    height: 500px;
+    background-color: #fff;
+    float: right;
+    width: 30%;
+}
+
+.tieude {
+    display: inline-block;
+    color: #A80002;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    width: 96%;
+    padding: 15px;
+    border-left: 5px solid #A80002;
+    background-image: linear-gradient(to top, #dddddd, #ffffff);
+    margin: auto;
+}
+
+.noidungtrai {
+    list-style-type: none;
+    background-color: #fff;
+    float: left;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.noidungphai {
+    list-style-type: none;
+    background-color: #fff;
+    float: right;
+    width: 48%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul img {
+    width: 100%;
+}
+
+.noidung li a {
+    list-style-type: none;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    font-weight: bold;
+    height: 100%;
+}
+
+.noidung li a:hover {
+    color: #A80002;
+    border-left: 3px solid #A80002;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 430px;
+    border: 1px solid #ccc;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+section img:hover {
+    width: 80%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.bando {
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+
+}
+
+#footer p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.thanh {
+    height: 50px;
+    background-color: #A80002;
+}
+
+.thanh p {
+    color: white;
+    text-align: left;
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tranphu>.dautrang {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #A80002;
+}
+
+.tranphu img {
+    margin-left: 550px;
+    border-radius: 20px;
+}
+
+.tranphu .noidung {
+    text-align: center;
+    font-size: 15px;
+}
+
+.HCM a {
+    text-decoration: none;
+    color: #fff;
+}

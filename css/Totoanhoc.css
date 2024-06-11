@@ -1,0 +1,262 @@
+#body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+}
+
+#header {
+    background-color: #bf2626;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+    height: 30px;
+    position: fixed;
+    width: 81.5%;
+    z-index: 1;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-logo div {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    width: 74%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: -25px;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+
+.nav a:hover {
+    background-color: #ccc;
+    color: #bf2626;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.hienmenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.hienmenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hienmenu a:hover {
+    border-left: 4px solid #bf2626;
+}
+
+.dropdown:hover .hienmenu {
+    display: block;
+}
+
+.chuchay {
+    height: 45px;
+    background-color: #ccc;
+
+}
+
+.chuchay marquee {
+    font-size: 20px;
+    font-weight: bold;
+    color: #A80002;
+    z-index: 1;
+    padding-top: 3px;
+
+}
+
+.chuchay #date {
+    display: block;
+    background-color: #ccc;
+    padding: 0 20px;
+    color: #A80002;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    z-index: 2;
+}
+
+#footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+
+}
+
+#footer p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.HCM a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.thanhtrai {
+    height: 50px;
+    background-color: #bf2626;
+    float: left;
+    width: 35%;
+}
+.thanhtrai h4 {
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+}
+
+.thanhtrai>.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #A60000;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+.menu a:hover {
+    background-color: #FF4D4D;
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    min-width: 200px;
+    background-color: #F8F8F8;
+    border: 1px solid #DDDDDD;
+}
+
+.submenu a {
+    color: #A60000;
+    border-bottom: 1px solid #DDDDDD;
+    z-index: 1;
+}
+
+.submenu a:hover {
+    background-color: #EEEEEE;
+   
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item:hover .submenu {
+    display: flex;
+}
+.thanhphai{
+    height: 50px;
+    background-color: #bf2626;
+    float: right;
+    width: 63%;
+}
+.thanhphai h4 {
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.search-container input[type="text"] {
+    width: 700px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 4px 31px;
+    margin-left: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+.noidung{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.noidung h1 {
+    padding: 20px;
+    height: 20px;
+    width:100%;
+    font-size: 25px;
+}
+.noidung h1 a {
+    text-decoration: none;
+    z-index: 0;
+    font-size: 20px;
+}
+.noidung :hover a   {
+    text-decoration: underline;
+    color: #A80002;
+    z-index: 0;
+}
+.noidung>a{
+    text-decoration: none;
+    color: #A60000;
+    margin-left: 30px;
+   
+}
+#container{
+    width:1250px;
+    margin: 0 auto;
+}
