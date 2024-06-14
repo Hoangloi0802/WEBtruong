@@ -1,10 +1,13 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
 #body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 1500px;
+    height: 1800px;
 }
-
 #header {
     background-color: #bf2626;
     display: flex;
@@ -45,9 +48,9 @@
     color: #fff;
     padding: -25px;
     font-weight: bold;
-    border-radius: 10px
+    /* border-radius: 10px */
+    transition: 0.2s;
 }
-
 
 .nav a:hover {
     background-color: #ccc;
