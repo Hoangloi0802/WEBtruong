@@ -51,7 +51,8 @@
     color: #fff;
     padding: -25px;
     font-weight: bold;
-    border-radius: 10px
+    /* border-radius: 10px */
+    transition: 0.2s;
 }
 
 .nav a:hover {
